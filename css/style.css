@@ -1,0 +1,498 @@
+*{margin: 0px; padding: 0px; box-sizing: border-box;}
+
+li{
+	list-style: none;
+}
+.nlink{
+	
+	margin:0px!important;
+}
+
+.navbar{
+	height: 45px!important;
+	background-color: #800000!important;
+	color: white!important;
+}
+.nav-item{
+	color: white!important;
+}
+
+.drop{
+	width: 250px!important;
+	height: auto;
+	background-color:  #800000!important;
+	color: white!important;
+}
+.fexx ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 12px;
+}
+
+.login{
+	border: 2px solid blue;
+	padding: 2px 5px;
+}
+.fexx ul li a{
+	text-decoration: none;
+}
+
+/*.......................*/
+
+.d-inline li a{
+text-decoration: none;
+color: black;
+font-weight: bold;
+
+}
+.d-inline li{
+	list-style: none;
+	display: inline-block;
+	font-size: 25px;
+
+}
+
+.d-inline li a:hover{
+	color: maroon;
+}
+
+.getinfo{
+	background:maroon;
+	color: white!important;
+	padding: 5px;
+	margin: 2px 10px;
+	font-size: 20px;
+}
+
+.bord{
+	border-left: 1px solid;
+	padding-left: 6px;
+
+}
+.first{
+	border-left: none;
+	padding-left: none;
+}
+
+.margin{
+	margin-top: 30px!important;
+}
+
+.second-sec{
+	width: 100%;
+	height: auto;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-image: url("https://www.collegeconsensus.com/wp-content/uploads/2016/12/o-HARVARD-UNIVERSITY-BUILDING-facebook-1024x512.jpg");
+	position: relative;
+	object-fit: cover;
+}
+
+.second-sec::before{
+	content: "";
+	position: absolute;
+	top: 0%;
+	bottom: 0%;
+	left: 0;
+	right: 0;
+	z-index: -1;
+}
+
+.row-first{
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+.top-head{
+	font-size: 60px;
+	font-weight: bolder;
+	padding-top: 50px;
+	color: white;
+	font-family: Baloo;
+}
+
+.card-body li{
+	margin:6px;
+	padding:5px;
+}
+
+.card-body li a{
+	font-weight: bold;
+	color: maroon;
+}
+
+.card{
+	border-top: 5px solid black;
+}
+
+.card-horizontal {
+    display: flex;
+    flex: 1 1 auto;
+}
+
+.bg-grey{
+	background-color: lightgrey;
+}
+
+.row-second{
+	padding-bottom: 30px;
+}
+
+.card-header{
+	border-top: 5px solid maroon;
+}
+
+.third-sec{
+	margin-top: 0px;
+	padding: 30px;
+	width: 100%;
+	height: auto;
+	background: #DCDCDC;
+}
+
+.button-find{
+	color: white;
+	background: #1E90FF;
+}
+
+.button-find:hover{
+	text-decoration: none;
+	color: white;
+}
+
+.head{
+	font-size: 40px;
+	font-weight: bold;
+	font-family: Varela;
+}
+.paragraph{
+	margin-top: 10px;
+	margin-bottom: 30px;
+}
+
+
+.row-ft{
+	margin-top: 80px;
+}
+
+.fourth-sec{
+	width: 100%;
+	height: auto;
+	padding: 80px 0px;
+	margin:0px;
+	position: relative;
+	
+	
+}
+.fourth-sec::before{
+	content: "";
+	position: absolute;
+	top: 0%;
+	bottom: 0%;
+	left: 0;
+	right: 0;
+	z-index: -1;
+	background: #F0FFF0;
+
+}
+
+.row-story{
+	margin-top: 50px!important;
+}
+
+.card{
+	box-shadow: 0 0 20px 0 rgba(0,0,0,0.3);
+
+}
+
+.sec-last{
+	margin-top: 60px;
+}
+
+.sec-last a{
+
+	border: 2px solid #1E90FF;
+	padding: 5px;
+	color: #1E90FF!important;
+
+}
+.sec-last a:hover{
+	text-decoration: none;
+
+}
+
+.unordered li{
+	display: inline;
+
+}
+
+.row-fst{
+	box-shadow: 0 0 8px 0 rgba(0,0,0,0.2);
+	height: 200px;
+	width: 100%;
+}
+
+.ancho{
+	font-size: 20px;
+	color: maroon;
+}
+.new-contain{
+	margin-top: 50px;
+}
+
+.nc-head{
+	margin-bottom: 30px;
+
+}
+
+.anch{
+	margin-top: 50px;
+}
+
+.anchh{
+	margin-top: 73px;
+}
+
+.anch a{
+	background:maroon;
+	color: white;
+	padding: 8px;
+	font-weight: bold;
+	word-spacing: 0px;
+}
+
+.anch a:hover{
+	text-decoration: none;
+	color: white;
+	background: darkred;
+}
+.nc-row{
+	border:1px solid lightgrey;
+	padding: 30px 0px 50px 0px;
+	background: linear-gradient(to bottom, #DCDCDC, white);
+}
+
+.nc-last-bar{
+	margin-top: 50px;
+	margin-left: 800px;
+
+}
+
+.nc-last-bar li{
+	display: inline-block;
+	margin-right:15px;
+	font-size: 15px;
+	font-weight: bold;
+
+	
+}
+.nc-last-bar li a{
+	color: maroon;
+}
+.nc-last-bar li a:hover{
+text-decoration: none;
+color: white;
+}
+
+.ncicon{
+	border-right: 1px solid ;
+	padding-left: 0px;
+	padding-right: 10px;
+}
+
+.fifth-sec{
+	width: 100%;
+	height: auto;
+	padding: 55px 0px;
+	background: linear-gradient(to top,#696969,#00BFFF);
+	position: relative;
+}
+.fifth-sec::before{
+	content: "";
+	position: absolute;
+	top: 0%;
+	bottom: 0%;
+	left: 0;
+	right: 0;
+	z-index: -1;
+}
+
+.last-sec{
+	width: 100%;
+	height: auto;
+	padding: 20px;
+	background: black;
+}
+
+.ls-ul li{
+	display: inline-block;
+	border-right: 2px solid ;
+	padding-left: 0px;
+	padding-right: 10px;
+
+}
+
+.ls-ul li a{
+	font-size: 16px;
+	color: white;
+}
+
+.ls-ul li a:hover{
+	text-decoration: none;
+	color:white;
+}
+
+
+@media(max-width: 768px){
+	.fexx {
+		width: 100%;
+		text-align: center;
+	}
+	.fexx ul li a{
+		font-size: 12px;
+		margin-right: 0px!important;
+	}
+
+	.row-wow{
+		text-align: center;
+	}
+
+
+	.Academics li{
+		width: 100%;
+		margin-top: 10px;
+		
+		text-align: center;
+		border-style: none;
+	}
+
+	.getinfo{
+		margin: 20px 0px;
+
+	}
+
+	.second-sec{
+		margin-top: 25px;
+		
+	}
+
+	.margin{
+		text-align: center;
+
+	}
+
+	.row-fst{
+		width: 100%;
+		height: auto;
+		text-align: center;
+		box-sizing: border-box;
+
+	}
+	.ancho{
+		font-size: 15px;
+		text-align: center;
+	}
+
+	.lineh{
+		line-height: 3px;
+	}
+
+	.row-ft{
+		width: 100%;
+		text-align: center;
+	}
+
+	.img{
+		height: 100%;
+		width: 100%
+	}
+
+
+	
+	
+	.elon{
+		margin-top: 15px;
+
+	}
+	.zucker{
+		margin-top: 22px;
+	}
+
+	.fifth-sec{
+		width: 100%;
+		height: auto;
+
+	}
+	.row-one{
+		width: 100%;
+		height:auto;
+		
+	}
+
+	.row-pc{
+		width: 100%;
+	}
+
+	.card-body p{
+		line-height:20px;
+	}
+	
+	.row-mr{
+		margin-top: 5px!important;
+	}
+
+	.nc-row{
+		width: 100%;
+		height: 100%;
+		text-align: center;
+
+
+	}
+	.new-contain{
+		margin-left: 30px;
+	}
+	.ncnc{
+		padding: 70px 0px;
+		margin:15px 0px;
+	}
+
+	.nc-last-bar{
+		width: 100%;
+		display: inline-block;
+		margin-left: 1px;
+		padding-left: 30px;
+	
+
+	}
+	.ncicon li a{
+		border-style: none;
+		font-size: 7px!important;
+		margin-right:5px;
+
+
+	}
+	.ncicon{
+		border-style: none;
+		margin-right: 5px!important;
+
+	}
+
+	.ncicon a i{
+		font-size: 15px;
+		border-style: none;
+		
+	}
+	.Archives{
+			margin-right: 20px!important;
+
+	}
+	
+
+	.text-light{
+		font-size: 10px;
+	}
+	.ls-ul li a{
+		font-size: 12px;
+	}
+
+	
+}
